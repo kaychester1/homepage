@@ -11,9 +11,8 @@ h1{
 	font-family: 'Josefin Sans', bold;
 	font-size: 50px;
 	margin-top: 95px;
-	
 	text-decoration: underline;
-	 text-underline-position: under;
+	text-underline-position: under;
 }
 h2{
 font-family: 'Josefin Sans', bold;
@@ -35,12 +34,12 @@ a: link {
   background-color: transparent;
   text-decoration: none;
 }
-a: visited {
+a:visited {
   color: #52a18c;
   background-color: transparent;
   text-decoration: none;
 }
-a: hover {
+a:hover {
   color:red;
  
 }
@@ -52,42 +51,51 @@ a:active {
 
 
 /*End of body text*/
+
 #wrapper{
-	 width: 1200px;
-  margin:50px auto;
+
+	width: 1200px;
+	margin:50px auto;
+	
 }
+
 #Header{
+	
 	width:1200px;
 	height: 300px;
 	background: orage;
 	background-image: url("header_background.png");
 }
 #GloriaImage{
+	
 	width: 300px;
 	height: 300px;
 	background-image: url("gloria_header.png"); 
 	background-repeat: no-repeat;
-
 	float: right;
 	margin-left: 70px;
 }
 #gloria_name{
+	
 	width: 620px;
 	height: 50px;
 	position: relative;
 	float: left;
 	top: 250px;
 	left: 270px;
+	
 	/*font size*/
-	 font-size: 65px;
-	 font-family: 'Josefin Sans';
-	 font-weight: bold;
-	 color: white;
+	
+	font-size: 65px;
+	font-family: 'Josefin Sans';
+	font-weight: bold;
+	color: white;
 
 
 }
 
 #Quotebox{
+	
 	width: 1200px;
 	height: 120px;
 	margin-top:20px;
@@ -96,6 +104,7 @@ a:active {
 
 }
 #inner-text{
+	
 	width: 800px;
 	height: 50px;
 	position: relative;
@@ -106,23 +115,24 @@ a:active {
 	
 }
 /*Biography section*/
+
 #Biography{
+	
 	width:1200px;
 	height: 300px;
 	margin-top:20px;
 	float: left;
-
 	background-image: url("frame_1.png"); 
 
 }
 
 #image-left-1{
-width: 500px;
-height: 300px;
-display: flex;
-float: left;
-background-image: url("bio_7.png"); 
-background-repeat: no-repeat;
+	width: 500px;
+	height: 300px;
+	display: flex;
+	float: left;
+	background-image: url("bio_7.png"); 
+	background-repeat: no-repeat;
 
 }
 
@@ -130,6 +140,7 @@ background-repeat: no-repeat;
 
 /*Articles section*/
 #Articles{
+	
 	width:1200px;
 	height: 300px;
 	margin-top:20px;
@@ -138,38 +149,45 @@ background-repeat: no-repeat;
 	
 }
 #image-right-1{
-width: 400px;
-height: 300px;
-display: flex;
-float: right;
-background-image: url("articles_1.png"); 
-background-repeat: no-repeat;
+	
+	width: 400px;
+	height: 300px;
+	display: flex;
+	float: right;
+	background-image: url("articles_1.png"); 
+	background-repeat: no-repeat;
 
 }
+
 /*End of articles section*/
 
 /*WrittenWorks section*/
+
 #WrittenWorks{
+	
 	width:1200px;
 	height: 300px;
 	margin-top:20px;
 	float: left;
-
-
 	background-image: url("frame_1.png"); 
 	border-color: black;
 }
+
 #image-left-2{
-width: 500px;
-height: 300px;
-display: flex;
-float: left;
-background-image: url("written_5.png"); 
-background-repeat: no-repeat;
+	
+	width: 500px;
+	height: 300px;
+	display: flex;
+	float: left;
+	background-image: url("written_5.png"); 
+	background-repeat: no-repeat;
 
 }
+
 /*End of written works section*/
+
 #footer{
+	
 	width: 1200px;
 	height: 120px;
 	margin-top:0px;
@@ -180,31 +198,30 @@ background-repeat: no-repeat;
 	display: flex;
 }
 #FollowMeHere{
+	
 	width: 260px;
 	height: 60px;
 	position: relative;
 	left: 400px;
-	
 	background: black;
-
 	margin-top: 30px;
 
 }
 #Twitter{
+	
 	width: 60px;
 	height: 60px;
 	position: relative;
 	left: 450px;
-	
 	margin-top:30px;
 }
 
 #Facebook{
+	
 	width: 60px;
 	height: 60px;
 	position: relative;
 	left: 470px;
-
 	margin-top:30px;
 
 }
